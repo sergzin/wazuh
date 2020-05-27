@@ -12,7 +12,8 @@
 #include "logcollector.h"
 
 int accept_remote;
-int lc_debug_level;
+extern int lc_debug_level;
+
 #ifndef WIN32
 rlim_t nofile;
 #endif
